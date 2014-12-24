@@ -1,0 +1,16 @@
+@import url('//fonts.googleapis.com/css?family=Open+Sans:400,700,300,600');
+@import url('//fonts.googleapis.com/css?family=Cabin:600');
+
+$body-bg: #955251;
+$font-family-sans-serif: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+
+@import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-front {
+  background-color: none;
+}
