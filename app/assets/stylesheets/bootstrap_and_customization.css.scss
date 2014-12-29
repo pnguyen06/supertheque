@@ -11,6 +11,22 @@ $font-family-sans-serif: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-s
 	text-align: center;
 }
 
+.cabin {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 600;
+}
+
 .navbar-front {
   background-color: none;
+}
+
+.btn {
+  border-radius: 50px;
+  background: #e1a8a7;
+  border: 1px solid;
+}
+
+.btn:hover {
+  background-color: #5d1715;
+  color: #fff;
 }

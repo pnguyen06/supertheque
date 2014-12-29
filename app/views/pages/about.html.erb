@@ -1,4 +1,21 @@
-<h1>About Us</h1>
-<p>We are working on our Supertheque app</p>
-
-<%= javascript_include_tag "game" %>
+<div class="jumbotron beyonce711_jumbo">
+	<div class="container">
+		<p class="cabin jumbo_copy">GET FREAKING SMART</p>
+		<h4>(or at least act like it)</h4>
+	</div>
+</div>
+<div class="container">
+	<div class="row center">
+		<div class="col-md-2 col-md-offset-3">
+			<h6><div id="timer"></div></h6>
+		</div>
+		<div class="col-md-2">
+			<h6><div id="score"></div></h6>
+		</div>
+		<div class="col-md-2">
+			<button class="btn btn-default" id="reset">Reset</button>
+		</div>
+	</div>
+	<canvas id="canvas" style="margin-top: 30px;"></canvas>
+</div>
+	<%= javascript_include_tag "game" %>
