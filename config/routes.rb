@@ -1,6 +1,6 @@
 Supertheque::Application.routes.draw do
   root "pages#home"
-  get "about" => "pages#about"
+  get "dontdropalcohol" => "pages#dontdropalcohol"
 
 
   # The priority is based upon order of creation: first created -> highest priority.
